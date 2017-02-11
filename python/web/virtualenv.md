@@ -9,12 +9,16 @@ Keep your python environment clean
 * And you can remove the env by simply delete the executable dir
 
 ## useful command
-* To keep environment consistent, you can generate the requirement file by using `freeze`
-    `$pip freeze > requirements.txt`
-    `$pip install -r requirements.txt`
+* To keep environment consistent, you can generate the requirement file by using `freeze`:
+    ```
+    $pip freeze > requirements.txt
+    $pip install -r requirements.txt
+    ```
 
 ## related tools
 * autoenv`: automagically activates the environment when you cd into the directory
     to install
-    `$ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv`
-    `$ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc`
+    ```
+    $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+    $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+    ```
